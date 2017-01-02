@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://F://css3/css3.iml" filepath="F://css3/css3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS3learning.iml" filepath="$PROJECT_DIR$/CSS3learning.iml" />
     </modules>
   </component>
 </project>

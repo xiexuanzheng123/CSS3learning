@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>结构伪类使用</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none outside none;
+            width: 400px;
+            padding: 5px;
+            margin: 20px auto;
+        }
+
+        li {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #000;
+            color: #fff;
+            padding: 5px;
+            border-radius: 50px;
+            margin: 5px;
+            text-align: center;
+            font: bold 30px/50px arial;
+        }
+
+        ul > li:first-child {
+            background: green;
+        }
+
+        ul > li:last-child {
+            background: blue;
+        }
+
+        ul > li:nth-child(3) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+</ul>
+</body>
+</html>
