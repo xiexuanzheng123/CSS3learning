@@ -1,0 +1,6 @@
+a[href^=http]::before{
+    content: "\f0a1";
+}
+a::after{
+    content: "("attr(href)")";
+}

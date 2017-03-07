@@ -1,0 +1,17 @@
+#first_letter,#first_line{
+    width: 400px;
+    display: inline-block;
+}
+#first_letter{
+    margin-left: 20px;
+}
+#first_letter::first-letter{
+    float: left;
+    color: #903;
+    padding: 4px 8px 0 3px;
+    font: 75px/60px Georgia;
+}
+#first_line::first-line{
+    font: italic 16px/18px Georgia;
+    color: #903;
+}
