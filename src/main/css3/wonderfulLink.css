@@ -1,0 +1,50 @@
+a{
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+    background: url("../images/link.png") no-repeat 100% -327px;
+}
+a[href^="http://"]{
+    background-position: 100% -409px;
+}
+a[href="home"]{
+    background-position: 100% -382px;
+}
+a[href="a.doc"]{
+    background-position: 100% 0;
+}
+a[href$="ppt"]{
+    background-position: 100% -50px;
+}
+a[href$="xls"]{
+    background-position: 100% -75px;
+}
+a[href$="html"]{
+    background-position: 100% -100px;
+}
+a[href$="pdf"]{
+    background-position: 100% -125px;
+}
+a[href$="jpg"],a[href$="gif"],a[href$="png"]{
+    background-position: 100% -175px;
+}
+a[href$="swf"]{
+    background-position: 100% -193px;
+}
+a[href$="zip"],a[href$="rar"]{
+    background-position: 100% -217px;
+}
+a[href$="mp3"]{
+    background-position: 100% -245px;
+}
+a[href$="exe"]{
+    background-position: 100% -273px;
+}
+a[href$="txt"]{
+    background-position: 100% -298px;
+}
+a[href^="mailto"]{
+    background-position: 100% -350px;
+}
