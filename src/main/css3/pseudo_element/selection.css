@@ -1,0 +1,8 @@
+#first_letter::selection{
+    background: red;
+    color: #fff;
+}
+#first_line::selection{
+    background: green;
+    color: yellow;
+}
